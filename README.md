@@ -34,3 +34,4 @@ This repository snapshot contains application source code only. Test files, test
 - `ui/`: desktop and web UI
 - `main.py`: desktop application entry point
 - `web_preview_entry.py`: web preview entry point
+
