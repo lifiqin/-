@@ -1,0 +1,13 @@
+# 视频违章智能分析系统 · 运行/构建依赖
+# Python 3.13
+
+PySide6>=6.6
+numpy
+opencv-python
+onnxruntime
+openai
+httpx
+pymupdf
+python-docx
+Pillow
+PyInstaller>=6.0
