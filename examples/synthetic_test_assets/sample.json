@@ -9,22 +9,22 @@
     {
       "id": "zone-001",
       "label": "work_area",
-      "bbox_xyxy": [60, 48, 360, 308]
+      "bbox_xyxy": [58, 46, 362, 310]
     },
     {
       "id": "barrier-001",
       "label": "barrier_marker",
-      "bbox_xyxy": [90, 104, 326, 118]
+      "bbox_xyxy": [87, 101, 329, 123]
     },
     {
       "id": "person-001",
       "label": "worker_icon",
-      "bbox_xyxy": [177, 136, 205, 236]
+      "bbox_xyxy": [173, 132, 209, 240]
     },
     {
       "id": "equipment-001",
       "label": "vehicle_icon",
-      "bbox_xyxy": [414, 176, 590, 283]
+      "bbox_xyxy": [386, 164, 578, 290]
     }
   ],
   "notes": "Hand-authored schematic only; not a photograph, project record, or safety finding."
