@@ -10,14 +10,14 @@
 - **成果自动产出**：逐帧标注图（含违章标签）、违章清单、证据包（原始画面 + 标注画面 + 说明）
 - **场景代表帧**：按场景与配置选择样本，高空远景也可能保留代表帧；抽样不等于完整覆盖
 
-## Source-only publication
-This repository snapshot contains application source code only. Test files, test fixtures, images, videos, datasets, model weights, local configuration, generated output, and deployment artifacts are intentionally excluded.
+## Publication scope
+This repository contains application source plus a small, fully synthetic sample under `examples/synthetic_test_assets/`. It is hand-authored vector art and metadata for format/loader smoke checks only, not real site evidence or a substitute for the private test suite.
+Original fixtures, photographs, videos, datasets, model weights, local configuration, generated output, knowledge bases, and deployment artifacts are intentionally excluded.
 
 ## Configuration
 运行期配置在 `config.json`（UTF-8 无 BOM），完整默认值见 `core/config.py` 的 `DEFAULT_CONFIG`。
 常用项：`parallel_workers`（总并发）、`scene_concurrency`（场景分析并发）、
 `event_report_mode`（事件上报口径：`all` 单帧即报 / `confirmed_only` 多帧确认）。
-
 
 ## LLM request constraints
 - LLM 推理请求：**不得带 seed 参数**；completion 额度须覆盖"思考 + 正文"
@@ -34,4 +34,3 @@ This repository snapshot contains application source code only. Test files, test
 - `ui/`: desktop and web UI
 - `main.py`: desktop application entry point
 - `web_preview_entry.py`: web preview entry point
-
