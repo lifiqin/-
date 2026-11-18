@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+  <title id="title">Synthetic test scene</title>
+  <desc id="desc">A hand-drawn schematic with a work area, barrier, person icon, and vehicle icon. It is not a real scene.</desc>
+  <rect width="640" height="360" fill="#e9ece8"/>
+  <path d="M0 292 L640 270 L640 360 L0 360 Z" fill="#c7c9c3"/>
+  <path d="M0 320 L640 298" stroke="#f8f6e8" stroke-width="4" stroke-dasharray="24 18"/>
+  <rect x="60" y="48" width="300" height="260" rx="8" fill="#d9c9a5" stroke="#746344" stroke-width="4"/>
+  <path d="M74 66 H345 V286 H74 Z" fill="none" stroke="#9a8050" stroke-width="2" stroke-dasharray="8 6"/>
+  <text x="82" y="91" font-family="sans-serif" font-size="15" font-weight="700" fill="#51442d">WORK AREA</text>
+  <path d="M90 111 H326" stroke="#c23b32" stroke-width="7"/>
+  <path d="M102 105 V119 M132 105 V119 M162 105 V119 M192 105 V119 M222 105 V119 M252 105 V119 M282 105 V119 M312 105 V119" stroke="#f7d15d" stroke-width="4"/>
+  <circle cx="191" cy="146" r="10" fill="#2d536d"/>
+  <path d="M191 156 V204 M178 178 H204 M191 204 L179 235 M191 204 L203 235" fill="none" stroke="#2d536d" stroke-width="7" stroke-linecap="round"/>
+  <text x="155" y="258" font-family="sans-serif" font-size="12" fill="#243e50">WORKER ICON</text>
+  <rect x="414" y="218" width="142" height="48" rx="12" fill="#e2b43e" stroke="#594b2b" stroke-width="4"/>
+  <rect x="493" y="187" width="68" height="40" rx="5" fill="#e2b43e" stroke="#594b2b" stroke-width="4"/>
+  <path d="M493 188 L515 169 L545 169 L560 188" fill="#d7e2e2" stroke="#594b2b" stroke-width="4"/>
+  <path d="M418 217 L391 195 L404 183 L440 218" fill="none" stroke="#594b2b" stroke-width="10" stroke-linejoin="round"/>
+  <circle cx="447" cy="270" r="17" fill="#33383a"/>
+  <circle cx="533" cy="270" r="17" fill="#33383a"/>
+  <circle cx="447" cy="270" r="7" fill="#b8bec0"/>
+  <circle cx="533" cy="270" r="7" fill="#b8bec0"/>
+  <text x="430" y="318" font-family="sans-serif" font-size="12" fill="#33383a">VEHICLE ICON</text>
+  <rect x="14" y="12" width="280" height="26" rx="4" fill="#ffffff" opacity="0.9"/>
+  <text x="24" y="30" font-family="sans-serif" font-size="13" font-weight="700" fill="#33383a">SYNTHETIC SCENE - NOT REAL EVIDENCE</text>
+</svg>
