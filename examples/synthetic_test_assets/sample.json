@@ -1,0 +1,31 @@
+{
+  "sample_id": "synthetic_scene_001",
+  "synthetic": true,
+  "media": "scene.svg",
+  "width": 640,
+  "height": 360,
+  "coordinate_system": "pixel_xyxy_origin_top_left",
+  "objects": [
+    {
+      "id": "zone-001",
+      "label": "work_area",
+      "bbox_xyxy": [60, 48, 360, 308]
+    },
+    {
+      "id": "barrier-001",
+      "label": "barrier_marker",
+      "bbox_xyxy": [90, 104, 326, 118]
+    },
+    {
+      "id": "person-001",
+      "label": "worker_icon",
+      "bbox_xyxy": [177, 136, 205, 236]
+    },
+    {
+      "id": "equipment-001",
+      "label": "vehicle_icon",
+      "bbox_xyxy": [414, 176, 590, 283]
+    }
+  ],
+  "notes": "Hand-authored schematic only; not a photograph, project record, or safety finding."
+}
